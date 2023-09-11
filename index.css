@@ -1,0 +1,23 @@
+body {
+    background-color: aliceblue;
+}
+
+.btn:hover{
+    background-color: rgb(55, 55, 151);
+}
+
+.btn{
+    background-color: rgb(129, 129, 168);
+}
+#resultado {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#resultado.mostrar{
+    opacity: 1;
+}
+
+body{
+    font-size: 30px;
+}
